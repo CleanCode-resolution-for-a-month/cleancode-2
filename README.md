@@ -12,7 +12,7 @@
 # 📒 진행 방식
 
 - 회의 일정: **매주(월) 21:00**
-- 회의 장소: [게더타운] (https://app.gather.town/app/crttW2B04cu3wkBP/nomad-cleancode) 
+- 회의 장소: [게더타운](https://app.gather.town/app/crttW2B04cu3wkBP/nomad-cleancode) 
 - 발표 준비: **전날 자정 12시(일요일)**까지 학습 후 자료 PR 남기기
 - 발표 진행: 
 1) 모든 팀원이 돌아가며 학습 내용 발표 
