@@ -2,12 +2,19 @@
 
 > 9월 19일(월)부터 10월 17일(월)까지 4주간 진행되는 클린코드 스터디입니다. <br>
 > 클린코드를 읽고 배운 점을 남기고 피드백합니다.
-> <br>
-> <br>
-> 🙋‍♀ Members (2팀) <br>
-> 세인트(황성택), Nange(김보중), Jia(장지아), Seohyun(서현), J park(박창원), Kim Bob(김민종/김 밥), 정경진(정경진)
 
 <br>
+
+# 🙋‍♀ Members (2팀)
+클린코드 2팀 멤버를 소개합니다!
+
+| [KyungJin Jung](https://github.com/okyungjin) <br>(Leader) | [세인트](https://github.com/Seongtaek-H) | [Jia](https://github.com/jangjia01234) | [J park](https://github.com/cwJohnPark) | [Nange](https://github.com/BojungKim) | [Kim Bob](https://github.com/kin9jon9) |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| <a href="https://github.com/okyungjin"><img src="https://github.com/okyungjin.png" width="180"></a> | <a href="https://github.com/Seongtaek-H"><img src="https://github.com/Seongtaek-H.png" width="200"></a> | <a href="https://github.com/jangjia01234"><img src="https://github.com/jangjia01234.png" width="200"></a> | <a href="https://github.com/cwJohnPark"><img src="https://github.com/cwJohnPark.png" width="200"></a> | <a href="https://github.com/BojungKim"><img src="https://github.com/BojungKim.png" width="180"></a> | <a href="https://github.com/kin9jon9"><img src="https://github.com/kin9jon9.png" width="195"></a> | 
+
+<br>
+
+
 
 # 📒 진행 방식
 
