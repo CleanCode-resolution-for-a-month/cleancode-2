@@ -52,8 +52,30 @@
 # ⚙ 규칙
 모든 작업은 Pull-Request 를 적극 활용하여 Review 와 커밋 기록을 남기는 것을 권장합니다.
 
-### Branch
-- `이름` 형식으로 각자 브랜치에 작업해주세요.
+## Branch
+- `이름` 으로 브랜치를 생성합니다.
 
-### Commit Convention
-- 커밋메시지는 아래와 같은 형식으로 작성
+## Directory Structure
+- 정리하고자 하는 챕터에 `이름` 으로 하위 디렉토리를 생성합니다.
+- `이름` 으로 생성한 디렉토리에 `README.md` 파일을 생성하여 요약을 작성합니다.
+- Conflict 방지를 위함이니 컨벤션을 잘 지켜주세요.
+
+**Example**
+```
+.
+├── 01-04장/
+│   ├── KyungJin Jung/
+│   │   └── README.md
+│   └── seohyun/
+│       └── README.md
+└── README.md
+```
+
+## PR
+- PR 제목은 `Add. 01장-04장 내용정리` 와 같이 `Add. {chapterName} 내용정리` 으로 설정합니다.
+- 스터디 메이트를 Assginee로 지정합니다.
+- 스터디 메이트는 PR을 받으면 코멘트를 받고 **Approve 처리** 및 **Merge** 합니다.
+
+## Commit
+- 커밋 메세지는 `Add`, `Remove`, `Update` 를 prefix로 붙입니다.
+
