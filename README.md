@@ -74,7 +74,9 @@
 ## PR
 - PR 제목은 `Add. 01장-04장 내용정리` 와 같이 `Add. {chapterName} 내용정리` 으로 설정합니다.
 - 스터디 메이트를 Assginee로 지정합니다.
-- 스터디 메이트는 PR을 받으면 코멘트를 받고 **Approve 처리** 및 **Merge** 합니다.
+- 스터디 메이트는 PR을 받으면 코멘트를 남기고 **Approve 처리** 및 **Merge** 합니다.
+  - 자료가 계속 업데이트 될 수 있으니, Approved 처리 및 Merge는 스터디 직전에 진행되면 좋을 것 같습니다!
+- 메이트가 아닌 팀원의 PR에 적극적으로 코멘트를 남깁니다 🔥
 
 ## Commit
 - 커밋 메세지는 `Add`, `Remove`, `Update` 를 prefix로 붙입니다.
