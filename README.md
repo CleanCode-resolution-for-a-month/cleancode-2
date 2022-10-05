@@ -14,6 +14,13 @@
 
 <br>
 
+# 💪 활동 모습
+
+<p>
+  <img height="300px" alt="activity1" src="https://user-images.githubusercontent.com/31913666/194104156-238f160d-782e-4705-88a2-939eab21df33.png">
+  <img height="300px" alt="activity2" src="https://user-images.githubusercontent.com/31913666/194103743-a882eb5e-3f2f-42b9-889f-e1812420b0c0.png">
+<p>
+
 
 
 # 📒 진행 방식
