@@ -8,9 +8,9 @@
 # 🙋‍♀ Members (2팀)
 클린코드 2팀 멤버를 소개합니다!
 
-| [KyungJin Jung](https://github.com/okyungjin) <br>(Leader) | [세인트](https://github.com/Seongtaek-H) | [Jia](https://github.com/jangjia01234) | [Seohyun](https://github.com/Seohyun-Roh)| [J park](https://github.com/cwJohnPark) | [Nange](https://github.com/BojungKim) | [Kim Bob](https://github.com/kin9jon9) |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <a href="https://github.com/okyungjin"><img src="https://github.com/okyungjin.png" width="200"></a> | <a href="https://github.com/Seongtaek-H"><img src="https://github.com/Seongtaek-H.png" width="200"></a> | <a href="https://github.com/jangjia01234"><img src="https://github.com/jangjia01234.png" width="200"></a> | <a href="https://github.com/Seohyun-Roh"><img src="https://github.com/Seohyun-Roh.png" width="200"></a> | <a href="https://github.com/cwJohnPark"><img src="https://github.com/cwJohnPark.png" width="200"></a> | <a href="https://github.com/BojungKim"><img src="https://github.com/BojungKim.png" width="200"></a> | <a href="https://github.com/kin9jon9"><img src="https://github.com/kin9jon9.png" width="200"></a> | 
+| [KyungJin Jung](https://github.com/okyungjin) <br>(Leader) | [세인트](https://github.com/Seongtaek-H) | [Seohyun](https://github.com/Seohyun-Roh)| [J park](https://github.com/cwJohnPark) |
+| :---: | :---: | :---: | :---: |
+| <a href="https://github.com/okyungjin"><img src="https://github.com/okyungjin.png" width="200"></a> | <a href="https://github.com/Seongtaek-H"><img src="https://github.com/Seongtaek-H.png" width="200"></a> | <a href="https://github.com/Seohyun-Roh"><img src="https://github.com/Seohyun-Roh.png" width="200"></a> | <a href="https://github.com/cwJohnPark"><img src="https://github.com/cwJohnPark.png" width="200"></a> |
 
 <br>
 
