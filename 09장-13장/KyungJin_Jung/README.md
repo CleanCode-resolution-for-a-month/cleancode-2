@@ -15,6 +15,10 @@
     - [✔️ 응집도 (Cohesion)](#️-응집도-cohesion)
     - [✔️ 응집도를 유지하면 작은 클래스 여럿이 나온다](#️-응집도를-유지하면-작은-클래스-여럿이-나온다)
   - [10-3) 변경하기 쉬운 클래스](#10-3-변경하기-쉬운-클래스)
+- [11장. 시스템](#11장-시스템)
+  - [11-1) Main 분리](#11-1-main-분리)
+  - [11-2) 팩토리](#11-2-팩토리)
+  - [11-3) 의존성 주입 (Dependency Injection, DI)](#11-3-의존성-주입-dependency-injection-di)
 
 <br>
 
@@ -162,5 +166,47 @@ public class Version {
 - 새 기능을 수정하거나 기존 기능을 변경할 때 건드릴 코드가 최소인 시스템 구조가 바람직하다. 이상적인 시스템이라면 새 기능을 추가할 때 시스템을 확장할 뿐 기존 코드를 변경하지는 않는다.
 - 테스트가 가능할 정도로 시스템의 결합도를 낮추면 유연성과 재사용성도 더욱 높아진다.
 - 결합도가 낮다는 것은 각 시스템 요소가 다른 요소들과 변경으로부터 잘 격리되어 있다는 의미다.
+
+---
+
+<br>
+
+# 11장. 시스템
+**관심사 분리**는 우리 분야에서 가장 오래되고 중요한 설계 기법 중 하나이다. **시스템 제작**과 **시스템 사용**을 *분리*하는 방법에 대해 알아보자.
+## 11-1) Main 분리
+시스템 생성과 시스템 사용을 분리하는 한 가지 방법이다.
+
+생성과 관련한 코드는 모두 main이나 main이 호출하는 모듈로 옮기고, 나머지 시스템은 모든 객체가 생성되었으며 모든 의존성이 연결되었다고 가정한다.
+
+<img width="400" alt="separate-main" src="https://user-images.githubusercontent.com/31913666/194805129-d8e7af53-3f3a-4d5e-8e6d-a8dd07bf2fe8.png">
+
+- main 함수에서 시스템에 필요한 객체를 생성한 후 이를 application에 넘긴다.
+- 모든 화살표가 main 쪽에서 application 쪽을 향한다.
+- application은 그저 객체를 사용할 뿐이다.
+- application은 main이나 객체가 생성되는 과정을 전혀 모른다. 단지 모든 객체가 적절히 생성되었다고 가정한다.
+
+<br>
+
+## 11-2) 팩토리
+때로는 객체가 생성되는 시점을 애플리케이션이 결정할 필요도 생긴다.
+
+예를 들어, 주문처리 시스템에서 애플리케이션은 LineItem 인스턴스를 생성해 Order에 추가한다.
+이때는 **ABSTRACT FACTORY 패턴**을 사용한다. 그러면 ListItem을 생성하는 시점은 애플리케이션이 결정하지만, LineItem을 생성하는 코드는 애플리케이션이 모른다.
+
+<img width="522" alt="factory-pattern" src="https://user-images.githubusercontent.com/31913666/194805916-ff74a2a6-5caa-457f-a82f-c3ce5c6aa8c2.png">
+
+- 모든 의존성이 main에서 OrderProcessing을 향한다.
+- OrderProcessing은 ListItem이 생성되는 구체적인 방법을 모른다. 그 방법은 main 쪽에 있는 LineItemFactoryImplementation이 안다.
+- OrderProcessing은 ListItem 인스턴스가 생성되는 시점을 완벽하게 통제한다.
+- 필요하다면 OrderProcessing에서만 사용하는 생성자 인수도 넘길 수 있다.
+
+<br>
+
+## 11-3) 의존성 주입 (Dependency Injection, DI)
+**사용과 제작을 분리하는 강력한 메커니즘 하나가 의존성 주입이다.**
+[의존성 주입](DependencyInversionPrinciple/README.md)은 제어 역전<sup>Inversion of Control, IoC</sup> 기법을 의존성 관리에 적용한 매커니즘이다.
+
+제어 역전에서는 한 객체가 맡은 보조 책임을 새로운 객체에게 전적으로 떠넘긴다.
+새로운 객체는 넘겨받은 책임만 맡으므로 단일 책임 원칙을 지키게 된다. 
 
 ---
