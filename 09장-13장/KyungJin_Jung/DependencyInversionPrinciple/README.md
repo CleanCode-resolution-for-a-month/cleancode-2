@@ -1,12 +1,17 @@
 ## 의존관계 역전 원칙 (Dependency Inversion Principle, DIP)
+
+- [전통적인 클래스 구현 방식: 의존성 역전의 필요성 느끼기](#전통적인-클래스-구현-방식-의존성-역전의-필요성-느끼기)
+- [Dependency Inversion 적용하여 코드를 개선하기](#dependency-inversion-적용하여-코드를-개선하기)
+- [의존성 주입 (Dependency Injection, DI)](#의존성-주입-dependency-injection-di)
+- [참고자료](#참고자료)
+
+<br>
+  
 객체지향 설계 원칙인 [SOLID](https://en.wikipedia.org/wiki/SOLID) 의 마지막 원칙인 **의존관계 역전 원칙**에 대해서 알아보자.
 
 의존관계 역전 원칙의 정의는 다음과 같다.
 
 > High-level 모듈이 Low-level 모듈의 구현 내용에 의존하면 안되고, <br>High-level 모듈과 Low-level 모듈 모두가 추상화된 내용에 의존해야 한다.
-
-
-<br>
 
 Dependency Inversion의 개념을 간단한 예시로 이해해보자.
 고양이와 강아지가 있는 동물원을 클래스로 구현하려고 한다. 전통적인 방식으로 구현하며 의존성 역전의 필요성을 느끼고, 의존성 역전의 패턴을 적용해 코드를 개선해보자.
