@@ -8,7 +8,7 @@
 # 🙋‍♀ Members (2팀)
 클린코드 2팀 멤버를 소개합니다!
 
-| [KyungJin Jung](https://github.com/okyungjin) <br>(Leader) | [세인트](https://github.com/Seongtaek-H) | [Seohyun](https://github.com/Seohyun-Roh)| [J park](https://github.com/cwJohnPark) |
+| [KyungJin Jung](https://github.com/okyungjin) <br>(Leader) | [Saint](https://github.com/Seongtaek-H) | [Seohyun](https://github.com/Seohyun-Roh)| [J park](https://github.com/cwJohnPark) |
 | :---: | :---: | :---: | :---: |
 | <a href="https://github.com/okyungjin"><img src="https://github.com/okyungjin.png" width="200"></a> | <a href="https://github.com/Seongtaek-H"><img src="https://github.com/Seongtaek-H.png" width="200"></a> | <a href="https://github.com/Seohyun-Roh"><img src="https://github.com/Seohyun-Roh.png" width="200"></a> | <a href="https://github.com/cwJohnPark"><img src="https://github.com/cwJohnPark.png" width="200"></a> |
 
@@ -45,14 +45,13 @@
 <br>
 
 # 📅 일정
-
-| 일정  |       날짜       |        범위        | 완료 여부 | 참여 순서 |
-| :---: | :--------------: | :----------------: | :------: | :-------: |
-| 0주차 | 09.19 (월) 21:00 |         OT         |          |           |
-| 1주차 | 09.26 (월) 21:00 |     1장 ~ 4장      |          |           |
-| 2주차 | 10.03 (월) 21:00 |     5장 ~ 9장      |          |           |
-| 3주차 | 10.17 (월) 21:00 |     10장 ~ 4장     |          |           |
-| 4주차 | 10.24 (월) 21:00 | 15장-17장 / 졸업식 |          |           |
+| 일정  |       날짜       |        범위        |          발표자        |
+| :---: | :--------------: | :----------------: | :---------------: |
+| 0주차 | 09.19 (월) 21:00 |         OT         |        N/A          |
+| 1주차 | 09.26 (월) 21:00 |     1장 ~ 4장     | Saint, KyungJin Jung  |
+| 2주차 | 10.03 (월) 21:00 |     5장 ~ 8장     | J Park, KyungJin Jung |
+| 3주차 | 10.17 (월) 21:00 |     8장 ~ 13장    |                       |
+| 4주차 | 10.24 (월) 21:00 | 14장-17장 / 졸업식  |                       | 
 
 <br>
 
