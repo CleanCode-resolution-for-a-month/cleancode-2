@@ -524,7 +524,7 @@ MyServiceImpl이 무거운 객체라면 단위 테스트에서 getService 메서
 
 main 함수에서 시스템에 필요한 객체를 생성한 후 애플리케이션에 넘기면 애플리케이션은 그저 객체를 이용할뿐
 
-![11.1](/Users/seongtaek/project/cleancode-2/09장-13장/Saint/11.1.png)
+![11.1](/Users/seongtaek/cleancode-2/09장-13장/Saint/11.1.png)
 
 모든 의존성 화살표는 main 쪽에서 애플리케이션 쪽을 향하는데, 즉 애플리케이션은 main이나 객체가 생성되는 과정을 전혀 모른다는 뜻
 
@@ -532,7 +532,7 @@ main 함수에서 시스템에 필요한 객체를 생성한 후 애플리케이
 
 ABSTRACT FACTORY 패턴. 객체가 생성되는 시점을 애플리케이션이 결정
 
-![11.2](/Users/seongtaek/project/cleancode-2/09장-13장/Saint/11.2.png)
+![11.2](/Users/seongtaek/cleancode-2/09장-13장/Saint/11.2.png)
 
 #### 의존성 주입
 
@@ -590,7 +590,7 @@ AOP에서 관점(aspect)이라는 모듈 구성 개념은 **특정 관심사**�
 
 ### 시스템은 도메인 특화 언어가 필요하다
 
-DSL(Domain-Specific Language)는 간단한 스크립트 언어나 표준 언어로 구현한 API. DSL로 짠 코드는 도메인 전문가가 작성한 구조적인 산문처럼 읽힘
+DSL(Domain-Specific Language)는 간단한 스크립트 언어나 표준 언어로 구현한 API. DSL로 짠 코드는 도메인 전문가가 작성한 산문처럼 읽힘
 
 좋은 DSL은 도메인 개념과 그 개념을 구현한 코드 사이에 존재하는 의사소통 간극을 줄여줌. 
 
@@ -609,6 +609,8 @@ DSL(Domain-Specific Language)는 간단한 스크립트 언어나 표준 언어�
 
 
 # 12. 창발성
+
+> 창발성 : **하위계층(구성 요소)에는 없는 특성이나 행동이 상위계층(전체 구조)에서 자발적으로 돌연히 출현하는 현상**
 
 ### 창발적 설계로 깔끔한 코드를 구현하자
 
