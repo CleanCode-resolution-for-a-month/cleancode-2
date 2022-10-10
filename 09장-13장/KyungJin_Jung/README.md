@@ -25,6 +25,9 @@
   - [12-3) 중복을 없애라](#12-3-중복을-없애라)
   - [12-4) 표현하라](#12-4-표현하라)
   - [12-5) 클래스와 메서드 수를 최소로 줄여라](#12-5-클래스와-메서드-수를-최소로-줄여라)
+- [13장. JavaScript에서의 동시성](#13장-javascript에서의-동시성)
+  - [13-1) Callback vs Promise](#13-1-callback-vs-promise)
+  - [13-2) Async/Await](#13-2-asyncawait)
 
 <br>
 
@@ -271,4 +274,71 @@ public class Version {
 
 ---
 
+<br>
 
+# 13장. JavaScript에서의 동시성
+> 동시성은 결합<sup>coupling</sup>을 없애는 전략이다. 즉, 무엇<sup>what</sup>과 언제<sup>when</sup>을 분리하는 전략이다.
+
+스레드가 하나인 프로그램은 무엇과 언제가 서로 밀접하다.
+무엇과 언제를 분리하면 애플리케이션 구조와 효울이 극적으로 나아진다.
+
+(13장의 내용은 JavaScript와 차이가 있어서, [
+clean-code-javascript-ko](https://github.com/qkraudghgh/clean-code-javascript-ko#%EB%8F%99%EC%8B%9C%EC%84%B1concurrency) 레포를 참고하여
+작성하였습니다.)
+
+
+## 13-1) Callback vs Promise
+Callback은 콜백 지옥을 만들어 가독성을 크게 떨어트린다.
+ES2015/ES6에선 Promise가 내장되어 있다. Callback 보다는 Promise를 사용하자.
+
+`Callback 사용`
+```js
+require('request').get('https://en.wikipedia.org/wiki/Robert_Cecil_Martin', (requestErr, response) => {
+  if (requestErr) {
+    console.error(requestErr);
+  } else {
+    require('fs').writeFile('article.html', response.body, (writeErr) => {
+      if (writeErr) {
+        console.error(writeErr);
+      } else {
+        console.log('File written');
+      }
+    });
+  }
+});
+```
+
+<br>
+
+`Promise 사용`
+
+```js
+require('request-promise').get('https://en.wikipedia.org/wiki/Robert_Cecil_Martin')
+  .then((response) => {
+    return require('fs-promise').writeFile('article.html', response);
+  })
+  .then(() => {
+    console.log('File written');
+  })
+  .catch((err) => {
+    console.error(err);
+  });
+```
+
+
+## 13-2) Async/Await
+ES2017/ES8에선 async와 await이 있습니다. async/await을 사용하면 비동기 함수를 동기적인 코드처럼 보이도록 작성할 수 있다.
+
+`async/await 사용`
+
+```js
+async function getCleanCodeArticle() {
+  try {
+    const response = await require('request-promise').get('https://en.wikipedia.org/wiki/Robert_Cecil_Martin');
+    await require('fs-promise').writeFile('article.html', response);
+    console.log('File written');
+  } catch(err) {
+    console.error(err);
+  }
+}
+```
