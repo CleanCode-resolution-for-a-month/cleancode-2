@@ -51,7 +51,7 @@
 | 1주차 | 09.26 (월) 21:00 |     1장 ~ 4장     | 세인트, KyungJin Jung  | KyungJin Jung, 세인트, Seohyun, J Park, Jia |
 | 2주차 | 10.03 (월) 21:00 |     5장 ~ 8장     | J Park, KyungJin Jung | KyungJin Jung, 세인트, Seohyun, J Park  |
 | 3주차 | 10.17 (월) 21:00 |     9장 ~ 13장    | Seohyun, 세인트         | KyungJin Jung, 세인트, Seohyun, J Park  
-| 4주차 | 10.24 (월) 21:00 | 14장-17장 / 졸업식  |                       | 
+| 4주차 | 10.24 (월) 21:00 | 14장-17장 / 졸업식  | J Park, 유연주 (1팀) | KyungJin Jung, 세인트, J Park |
 
 <br>
 
